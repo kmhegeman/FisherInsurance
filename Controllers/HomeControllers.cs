@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 public class HomeController : Controller
 {
-   Public IActionResult Index()
+   Public IActionResult Index() 
    {
        return Ok("This is the index of the HomeController");
-   };
+   }
 
-};
+}
