@@ -1,14 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
 
-public class AutoController : Controller
+
+
+public class CustomerCareController : Controller
 {
-    public IActionReuslt Index()
+    public IActionResult Index()
     {
-        return Ok("This is the index of the AutoController");
+        return Ok("This is the index of the CustomerCareController");
     }
 
-    public IActionResulte Quote()
+    public IActionResult Claims()
     {
-        return Ok("This is the quote of the AutoController")
+    return Ok("This is the Claims method of the CustomerCareController");
     }
+
+        public IActionResult NewClaims()
+        {
+            return Ok("This is the New Claims method of the CustomerCareController");
+        }
+        public IActionResult ClaimsHistory()
+        {
+            return Ok("This is the Claims History method of the CustomerCareController");
+        }
+
 }

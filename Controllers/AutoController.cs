@@ -2,13 +2,13 @@ using Microsoft.AspNetCore.Mvc;
 
 public class AutoController : Controller
 {
-    public IActionReuslt Index()
+    public IActionResult Index()
     {
         return Ok("This is the index of the AutoController");
     }
 
-    public IActionResulte Quote()
+    public IActionResult Quote()
     {
-        return Ok("This is the quote of the AutoController")
+        return Ok("This is the quote of the AutoController");
     }
 }

@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 
-public class AutoController : Controller
+public class LifeController : Controller
 {
-    public IActionReuslt Index()
+    public IActionResult Index()
     {
-        return Ok("This is the index of the AutoController");
+        return Ok("This is the index of the LifeController");
     }
 
-    public IActionResulte Quote()
+    public IActionResult Quote()
     {
-        return Ok("This is the quote of the AutoController")
+        return Ok("This is the quote of the LifeController");
     }
 }

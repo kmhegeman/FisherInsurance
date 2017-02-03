@@ -2,13 +2,13 @@ using Microsoft.AspNetCore.Mvc;
 
 public class HomePageController : Controller
 {
-    public IActionReuslt Index()
+    public IActionResult Index()
     {
         return Ok("This is the index of the HomePageController");
     }
 
-    public IActionResulte Quote()
+    public IActionResult Quote()
     {
-        return Ok("This is the quote of the HomePageController")
+        return Ok("This is the quote of the HomePageController");
     }
 }
